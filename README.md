@@ -15,5 +15,6 @@ Gioco musicale da tavolo nel browser: parte una canzone misteriosa e la metti ne
 Quello che succede quando si gioca su questo sito:
 
 - Annata non ha account, cookie né statistiche, e non manda a nessuno quello che si scrive nella pagina: nomi, anni, paesi, partita e record restano solo nel `localStorage` del browser di chi gioca.
-- L'unico servizio esterno è il player incorporato di Spotify: Spotify mette i suoi cookie e sa quali canzoni suonano, come su open.spotify.com. Lo stesso vale per i link che portano su Spotify («Ascoltala intera», «Apri su Spotify», l'accesso a Spotify), che si aprono solo se li tocca qualcuno.
+- L'unico servizio esterno è il player incorporato di Spotify, e si attiva solo con «Attiva i cookie di Spotify» nella preparazione. Senza la spunta si gioca lo stesso e la pagina non si collega a nessuno: a ogni turno qualcuno apre la canzone su Spotify sul suo telefono. Con la spunta, Spotify mette i suoi cookie e sa quali canzoni suonano, come su open.spotify.com. Togliendo la spunta la pagina si ricarica senza player. Lo stesso vale per i link che portano su Spotify («Ascoltala intera», «Apri su Spotify», l'accesso a Spotify), che si aprono solo se li tocca qualcuno.
 - Il sito è ospitato da GitHub Pages, che come ogni server riceve l'indirizzo IP di chi apre la pagina.
+- Il codice del gioco è quello di `index.html`, pubblico in questo repository. Per contattare chi gestisce il sito basta aprire una issue qui.
